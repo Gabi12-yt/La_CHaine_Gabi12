@@ -35,9 +35,9 @@
             }
             button {
                 position: absolute;
-                top: 10px;
-                right: 10px;
-                background-color: #007BFF;
+                bottom: 20px;
+                left:400px;
+                background-color: #0996f5;
                 color: white;
                 border: none;
                 padding: 10px 20px;
@@ -45,9 +45,43 @@
                 border-radius: 5px;
                 cursor: pointer;
             }
+          
+          
             button:hover {
                 background-color: #0056b3;
             }
+            #btn-montage:hover {
+                background-color: orangered;
+            }
+
+            
+            #btn-montage {     
+                position:absolute;
+                top:25%;
+                left:1.5%;
+                width: 100px;
+                height:30px;
+                background-color: orange;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                font-size: 16px;
+                border-radius: 5px;
+                cursor: pointer;
+
+            }
+            h3 {
+                font-size: 30px;
+                position:absolute;
+                top:10px;
+                left:30px;
+            }
+            #montage {
+                position:absolute;
+                top:50px;
+                left:12%;
+            }
+            
             
         </style>
     </head>
@@ -57,10 +91,23 @@
             spécialisé dans les cours métrages. N'hésitez pas a aller voir les videos<br>
             et a liker et s'abboner. Merci d'avance.</p>
         <h2>Cliquez sur le bouton pour aller voir</h2>
+        <h3>Les montages</h3>
+        <p id="montage">Si vous vouler en savoir<br>
+             plus sur comment on fait nos<br>
+             montages(logiciels et autre) alors<br>
+             cliquez sur le boutton</p>
+       
         <img src="https://yt3.googleusercontent.com/ytc/AIdro_kmbHMyqSSf4d5VxTm9_2MI4JkKFyBDrCA_DkoWzkHzgQ=s160-c-k-c0x00ffffff-no-rj" Alt="photo de la chaine" width="600">
+      
         <button onclick="window.location.href='https://www.youtube.com/@Gabi-pk2zb';">
             Aller sur la chaine
         </button>
+        
+        <nav>
+            <button id="btn-montage" onclick="window.location.href='les_montages.html';">Montage</button>
+           
+        </nav>
+    
 
     </body>
 </html>
